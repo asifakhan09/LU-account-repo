@@ -1,0 +1,23 @@
+name: bern02
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - statsmodels
+  - plotly
+  - pymc=5.10.
+  - bambi=0.13
+  - arviz=0.17
+  - pytensor>=2.19
+  - xarray>=2024.3
+  - pandas

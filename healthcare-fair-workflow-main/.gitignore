@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyc
+*$py.class
+
+# C extensions
+*.so
+
+# Ignore local environments
+.Python
+env/
+venv/
+ENV/
+.venv/
+*.egg-info/
+.eggs/
+*.egg-info/
+.envrc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+pip-wheel-metadata/
+
+# VS Code settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Data files that are too large (optional, keep dataset in Zenodo)
+*.zip
+*.tar
+*.gz
+*.h5
+*.parquet
+*.log
+
+
+# Ignore data outputs
+outputs/
